@@ -4,7 +4,8 @@
   "description": "A recursive README.md to index.html transformer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "updown": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/chantastic/updown/issues"
   },
-  "homepage": "https://github.com/chantastic/updown#readme"
+  "homepage": "https://github.com/chantastic/updown#readme",
+  "dependencies": {
+    "consolidate": "^0.14.5",
+    "file": "^0.2.2",
+    "lodash": "^4.17.2",
+    "marked": "^0.3.6",
+    "pygmentize-bundled": "^2.3.0"
+  }
 }
